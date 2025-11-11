@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title> Formatação de Textos </title>
+<!-- SÃO BOAS PRÁTICAS DE ESCRITA EM HTML USAR APENAS TAGS SEMÂNTICAS!!!! -->
+</head>
+<body>
+<!-- Tag não semântica é uma tag que não possui significado em seu nome, apenas forma em sua composição, sendo usada para modificar o texto de maneira decorativa. Uma tag semântica é uma tag que possui um significado atrelado à seu nome. -->
+    <h1> Principais Formatações </h1>
+    <h2> Negrito ou Destaque </h2>
+<!-- Tanto a tag <b> quando a tag <strong> tornam o texto em NEGRITO, mas a tag <strong> possui sentido semântico, denotando destaque e força, enquanto a tag <b> é apenas a abreviação de bold, não possuindo sentido em sua nomenclatura (caso a pessoa não saiba que é uma abreviação). -->
+    <p> Nesta frase temos um  <b> TERMO EM NEGRITO </b> usando a tag <b> &lt;b&gt;</b>, que é uma tag NÃO SEMÂNTICA. </p>
+    <p> Nesta frase temos um <strong> TERMO EM DESTAQUE </strong> usando a tag <strong> &lt;strong&gt; </strong>, que é uma tag SEMÂNTICA. </p>
+    <h2> Itálico ou Ênfase </h2>
+<!-- Tanto a tag <i> quando a tag <em> tornam o texto em ITÁLICO, mas a tag <em> possui sentido semântico, denotando ênfase e importância, enquanto a tag <i> é apenas a abreviação de italic, não possuindo sentido em sua nomenclatura (caso a pessoa não saiba que é uma abreviação). -->
+    <p> Nesta frase temos um <i> TERMO EM ITÁLICO </i> usando a tag <i> &lt;i&gt; </i>, que é uma tag NÃO SEMÂNTICA. </p>
+    <p> Nesta frase temos um <em> TERMO EM ÊNFASE </em> usando a tag <em> &lt;em&gt; </em>, que é uma tag SEMÂNTICA. </p>
+    <h2> Texto Marcado </h2>
+<!-- Para criar um pedaço de texto marcado por uma espécie de marca-texto digital, é necessário utilizar a tag <mark>. -->
+    <p> Podemos usar um <mark> TEXTO MARCADO </mark> usando tag <mark> &lt;mark&gt; </mark>, que é uma tag SEMÂNTICA. </p>
+    <h2> Texto Grande ou Pequeno </h2>
+<!-- Apesar de sua funcionalidade, a tag <big> é considerada OBSOLETA por ser uma tag NÃO SEMÂNTICA, uma vez que para obter uma fonte maior, basta estilizar com CSS, enquanto que a tag <small> ainda possui relevância, uma vez que pode ser utilizada para adicionar textos secundários como uma observação importante. -->    
+    <p> Nesta frase, temos um <big> texto grande </big> e um <small> texto pequeno </small>, onde <big>&lt;big&gt;</big> é uma tag NÃO SEMÂNTICA e <small> &lt;small&gt; </small> é uma tag SEMÂNTICA.</p>
+    <h2> Texto Deletado </h2>
+<!-- Para criar um pedaço de texto riscado, sinalizando que foi excluido ou deletado, basta usar a tag <del>. -->
+    <p> Podemos marcar um texto como deletado <del> (também chamado excluído ou riscado) </del> para indicar que ele pode ser lido, porém, não deve ser considerado. A tag &lt;del&gt; é uma tag SEMÂNTICA. </p>
+    <h2> Texto Inserido ou Sublinhado </h2>
+<!-- Tanto a tag <u> quando a tag <ins> tornam o texto SUBLINHADO, mas a tag <ins> possui sentido semântico, denotando adição e acréscimo posterior, enquanto a tag <u> é apenas a abreviação de underline, não possuindo sentido em sua nomenclatura (caso a pessoa não saiba que é uma abreviação). -->
+    <p> Podemos marcar um <ins> TERMO COMO INSERIDO </ins> para dar uma noção de acréscimo em seu conteúdo e indicar que ele foi adicionado posteriormente. A tag &lt;ins&gt; é uma tag SEMÂNTICA. </p>
+    <p> Nesta frase temos um <u> TERMO SUBLINHADO </u> que utiliza a tag <u> &lt;u&gt; </u>, sendo uma tag NÃO SEMÂNTICA. </p>
+    <h2> Texto Sobrescrito </h2>
+<!-- Para criar um pedaço de texto menor na parte SUPERIOR da linha, tal qual uma operação de potenciação, basta usar a tag <sup>. -->
+    <p> Podemos utilizar este tipo de formatação para inserir coisas do tipo x<sup>y</sup>+3, utilizando a tag &lt;sup&gt;.. </p>
+    <h2> Texto Subescrito </h2>
+<!-- Para criar um pedaço de texto menor na parte INFERIOR da linha, tal qual a base de um logaritmo, basta usar a tag <sub>. -->
+    <p> Podemos utilizar este tipo de formatação para inserir coisas do tipo Log<sub>2</sub>8, utilizando a tag &lt;sub&gt;. </p>
+</body>
+</html>

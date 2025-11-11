@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title> Outras Formatações </title>
+</head>
+<body>
+    <h1> Outras Formatações </h1>
+    <h2> Código-Fonte </h2>
+<!-- A tag <code> transforma o texto em uma fonte monoespaçada, utilizada para representar códigos específicos em blocos de texto (como podemos ver na própria nomenclatura da tag). -->
+    <p> O comando <code> document.getElementById('Teste') </code> é escrito em linguagem JavaScript. </p>
+    <hr>
+<!-- A tag <pre> é utilizada para indentar qualquer exemplo de código-fonte de um bloco de texto HTML, como podemos ver abaixo. -->
+    <p> Já o comando abaixo é escrito em linguagem Python. </p>
+    <pre>
+        <code>
+num = int(input("Digite um número à sua escolha: "))
+if (num % 2 == 0):
+    print(f"O número {num} é PAR!")
+else:
+    print(f"O número {num} é ÍMPAR.")
+print("Fim do programa.")
+        </code>
+    </pre>
+    <hr>
+    <h2> Citações Simples </h2>
+<!-- A tag <q> é utilizada para fazer citações SIMPLES em HTML, sendo abreviatura de quotation, sendo uma tag SEMÂNTICA, apesar das aparências. -->
+    <p> Como diria o filósofo Piton: <q> O computador é um burro muito rápido. </q> </p>
+    <h2> Citações Completas </h2>
+    <p> No início do livro <q> A Flecha de Fogo </q>, escrito por Leonel Caldela, há uma profecia que diz: </p>
+<!-- A tag <blockquote> é utilizada para criar citações mais complexas e prolongadas, como um bloco de texto completo ou parágrafo inteiro, sendo uma citação. -->
+    <pre>
+        <blockquote cite="https://jamboeditora.com.br/produto/a-flecha-de-fogo/">
+<!-- A tag <cite> serve para citações de fontes diretas por meio de links, e deve ser feita DENTRO da tag <blockquote>, antes de seu fechamento. -->
+QUANDO A SOMBRA PASSAR PELO GLOBO DE LUZ
+TRAZENDO A VIDA QUE TRARÁ A MORTE
+TERÁ SURGIDO O ARAUTO DA DOR
+O EMISSÁRIO DA DESTRUIÇÃO
+
+SEU NOME SERÁ CANTADO POR UNS
+E AMALDIÇOADO POR OUTROS
+O SANGUE TINGIRÁ OS CAMPOS DE VERMELHO
+UM REI PARTIRÁ SUA COROA EM DUAS
+E A GUERRA TOMARÁ A TUDO E A TODOS
+
+ATÉ QUE A SOMBRA DA MORTE COMPLETE SEU CICLO
+E A FLECHA DE FOGO SEJA DISPARADA
+ROMPENDO O CORAÇÃO DAS TREVAS
+        </blockquote>
+    </pre>
+    <hr>
+    <h2> Abreviações </h2>
+<!-- A tag <abbr> é utilizada para fornecer um significado em abreviaturas. Como por exemplo, indicar que UFRPE significa "Universidade Federal Rural de Pernambuco". A sigla fica sublinhada, e ao realizar um mouseover, é revelado o seu significado completo em um pop-up. -->
+    <p> Estou estudando <abbr title="HyperText Markup Language"> HTML </abbr> e <abbr title="Cascading Style Sheets"> CSS </abbr>. Finalmente estou aprendendo, o que antes era impossível!</p>
+    <h2> Texto Invertido </h2>
+<!-- A tag <bdo> significa BIDIRECTIONAL OVERRIDE e é utilizada para inverter a ordem natural de um texto. Nossa escrita normalmente é realizada da ESQUERDA PARA A DIREITA, então, para inverter o texto, é necessário selecionar <bdo dir="rtl"> (onde rtl é right to left). Caso contrário, seria necessário escrever o texto de trás pra frente e usar <bdo dir="ltr"> (onde ltr é left to right). -->
+    <p> O texto à seguir está escrito normalmente e invertido da DIREITA PARA ESQUERDA <bdo dir="rtl"> TEXTO INVERTIDO </bdo> </p>
+    <p> O texto à seguir está escrito inversamente e revertido da ESQUERDA PARA DIREITA <bdo dir="ltr"> ODITREVNI OTXET </bdo></p>
+</body>
+</html>
