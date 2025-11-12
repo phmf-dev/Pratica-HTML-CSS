@@ -12,7 +12,7 @@
 <!-- A tag <ol> significa Ordered List, e é um tipo de lista com ordenação crescente por padrão, porém, pode ser modificada para melhor suprir as necessidades do desenvolvedor. -->
     <ol type="1" start="1">
 <!-- Para modificar a ordenação da tag <ol> basta colocar um parâmetro chamado (type="N"), onde 'N' é um número entre 1 e 4. -->
-<!-- Também é possível modificar o valor de início da tag <ol> por meio do parâmetro (start="N"), onde 'N' é um número escolhido -->
+<!-- Também é possível modificar o valor de início da tag <ol> por meio do parâmetro (start="N"), onde 'N' é SEMPRE um número escolhido, independente se a lista estiver organizada em letras ou numeração romanos. -->
         <li> Acordar </li>
         <li> Tomar Café da Manhã </li>
         <li> Escovar os Dentes </li>
@@ -31,5 +31,27 @@
         <li> Cenoura </li>
     </ul>
 <!-- A tag <li> significa List Item (ou Item da Lista), e é onde deve ficar o nome de cada item, sempre dentro da tag <ol>, para uma lista ordenada, ou da tag <ul>, para uma lista não ordenada. -->
-</body>
+    <h2> Meus Sistemas de RPG do Coração </h2>
+<!-- O ato de colocar uma lista dentro de outra lista, sejam elas ordenadas ou não, é chamado de ANINHAMENTO. -->
+    <ol>
+        <li> D20 </li>
+        <ul type="disc">
+            <li> Tormenta 20 </li>
+            <li> Ordem Paranormal </li>
+            <li> Dungeons and Dragons 5E (2024) </li>
+        </ul>
+        <li> Gerais </li>
+        <ul type="square">
+            <li> EZD6</li>
+            <li> Sétimo Mar </li>
+            <li> The Witcher Tabletop RPG </li>
+        </ul>
+    </ol>
+    <h2> Lista de Definições </h2>
+<!-- Para usar uma Lista de Definição, é necessário abrir a tag <dl> (Definition List), e em seguida nomear um item sob a tag <dt> (Definition Term), para então adicionar uma descrição do item desejado sob a tag <dd> (Definition Description). -->
+    <dl>
+        <dt> Leonel Caldela </dt>
+        <dd>Começou sua carreira com <em>O Inimigo do Mundo</em>, um romance no cenário de <abbr title="Role Playing Game">RPG</abbr> nacional chamado <code><abbr title="Maior Universo de Fantasia Nacional">Tormenta</abbr></code>, seguido por <em>O Crânio e O Corvo</em> e <em>O Terceiro Deus</em>. Depois escreveu <em>O Caçador de Apóstolos</em> e <em>Deus Máquina</em>, que lhe valeram a alcunha de <code>o Bernard Cornwell brasileiro.</code> Em 2013, lançou <em>O Código Élfico</em>, um livro de aventura e terror moderno que apresenta elfos como cultistas de uma deusa profana e rendeu pesadelos aos editores. <br>
+        Em 2014, começou uma pareceria com o site <code><abbr title="LAMBA LAMDBA LAMBDA NERDS!">Jovem Nerd</abbr></code>, com a série <em>A Lenda de Ruff Ghanor</em> e o romance <em>Ozob: Procolo Molotov</em>. A partir de 2016, tornou-se o mestre dos <code><abbr title="Call of Cthullu">Nerdcast RPG</abbr></code>, narrando histórias de terror para o grupo maisinsano dos podcasts do Brasil. Leonel mora em Porto Alegre com sua esposa e um esquadrão de gatos ninja.</dd>
+    </dl>
 </html>
